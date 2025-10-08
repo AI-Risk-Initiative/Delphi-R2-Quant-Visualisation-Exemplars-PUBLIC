@@ -6,7 +6,10 @@
       "Bash(if [ \"$file\" != \"risk2_bau_chart.html\" ])",
       "Bash(then)",
       "Bash(fi)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(do if [ \"$file\" != \"index.html\" ])",
+      "Bash(then echo \"$file\")",
+      "Bash(do sed -i '' 's/maintainAspectRatio: false,/maintainAspectRatio: false,\\n                devicePixelRatio: 2,/' \"$file\")"
     ],
     "deny": [],
     "ask": []
