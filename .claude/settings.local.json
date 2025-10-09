@@ -12,7 +12,8 @@
       "Bash(do sed -i '' 's/maintainAspectRatio: false,/maintainAspectRatio: false,\\n                devicePixelRatio: 2,/' \"$file\")",
       "Bash(open risk1_bau_chart.html)",
       "Bash(open risk2_bau_chart.html)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(open:*)"
     ],
     "deny": [],
     "ask": []
