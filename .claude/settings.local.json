@@ -9,7 +9,8 @@
       "Bash(done)",
       "Bash(do if [ \"$file\" != \"index.html\" ])",
       "Bash(then echo \"$file\")",
-      "Bash(do sed -i '' 's/maintainAspectRatio: false,/maintainAspectRatio: false,\\n                devicePixelRatio: 2,/' \"$file\")"
+      "Bash(do sed -i '' 's/maintainAspectRatio: false,/maintainAspectRatio: false,\\n                devicePixelRatio: 2,/' \"$file\")",
+      "Bash(open risk1_bau_chart.html)"
     ],
     "deny": [],
     "ask": []
